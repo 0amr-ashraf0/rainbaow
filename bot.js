@@ -7,7 +7,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
     setInterval(function(){
         client.guilds.get('500649639523909633').roles.find('name', 'Disco').edit({color: 'RANDOM'})
-    },5000);
+    },12000);
   
 
 })
